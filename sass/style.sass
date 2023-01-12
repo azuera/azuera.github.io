@@ -2,14 +2,33 @@
 @import "font.sass"
     
 body
-    background: white
+    background: url(../img/bg.jfif)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
     font-family: 'Anonymous Pro', monospace
+    text-align: justify
+    color:#212F3C
+    // border-width: 30px
+
+.container
+    width: 90%
+    margin: auto
+
+
+
+.liste
+    ul
+        list-style: none
+
+ul
+    padding: 0
 
 a
     @extend %a
 
-
-    
+h2
+    margin: 3% 0
 
 h4
     font-weight: bold 700
@@ -17,6 +36,18 @@ h4
 
 .listedubas1
     display: flex
-    
+    #langageinfo
+        margin-left: 25%
+        width: 100%
+
 .listedubas2
     display: flex
+    #centre-interet
+        margin-left: 25%
+        width: 100%
+
+
+.nom
+    display: flex
+    flex-direction: column
+    align-items: flex-end

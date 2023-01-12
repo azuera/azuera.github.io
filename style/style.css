@@ -10,8 +10,30 @@ a:hover {
 }
 
 body {
-  background: white;
+  background: url(../img/bg.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   font-family: "Anonymous Pro", monospace;
+  text-align: justify;
+  color: #212F3C;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.liste ul {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+h2 {
+  margin: 3% 0;
 }
 
 h4 {
@@ -21,7 +43,21 @@ h4 {
 .listedubas1 {
   display: flex;
 }
+.listedubas1 #langageinfo {
+  margin-left: 25%;
+  width: 100%;
+}
 
 .listedubas2 {
   display: flex;
+}
+.listedubas2 #centre-interet {
+  margin-left: 25%;
+  width: 100%;
+}
+
+.nom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }/*# sourceMappingURL=style.css.map */
